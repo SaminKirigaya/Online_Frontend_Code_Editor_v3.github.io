@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeEditor Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <link rel="stylesheet" href="assets/css/core2.css">
+
+    
+
+</head>
+<body>
+    <!--Nav-->
+    
+    <nav class="navbar navbar-expand-lg desnav">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-4 txtcol" >CodeEditor Online</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse sticky-top " id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+                <a id="btnact1" class="nav-link " aria-current="page" href="index.html">Home</a>
+                <a id="btnact2" class="nav-link active" href="editor.html">Code Editor</a>
+                
+                
+            </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!--Nav-->
+    <div class="container-fluid py-3 maincont">
+        <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-evenly mb-3 mx-2">
+            <div class="col coldes">
+                <div class="row">
+                    <p class="famfon"><b>HTML</b></p>
+                </div>
+                <div class="row">
+                    <textarea id="html-editor" spellcheck="false" placeholder="No need to write html tags such as Head, Title in this whole input is under BODY tag."></textarea>
+                </div>
+
+            </div>
+            <div class="col coldes">
+                <div class="row">
+                    <p class="famfon"><b>CSS</b></p>
+                </div>
+                <div class="row">
+                    <textarea id="css-editor" spellcheck="false" ></textarea>
+                </div>
+            </div>
+            <div class="col coldes">
+                <div class="row">
+                    <p class="famfon"><b>JS</b></p>
+                </div>
+                <div class="row">
+                    <textarea id="js-editor" spellcheck="false" ></textarea>
+                </div>
+            </div>
+            
+
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-3  d-flex justify-content-sm-evenly mb-3 mx-2">
+            <div class="col mb-3 coldes2">
+                <div class="row text-center">
+                    <p class="famfon"><b>HTML PREVIEW</b></p>
+                </div>
+                <div class="row">
+                    <div id="content" contenteditable="false"></div>
+                </div>
+            </div>
+            <div class="col coldes2">
+                <div class="row d-flex ">
+                    <iframe id="preview-frame"></iframe>
+                </div>
+                
+            </div>
+            
+            
+
+        </div>
+
+
+    </div>
+    <div class="container-fluid m-0 p-0 prevmain">
+        <div class="row d-flex justify-content-center mt-5 mb-5">
+            Desired Width &nbsp;
+            <input style="width:5rem;" type="number" name="inpwidth" id="inpwidth" placeholder="Width"><input style="width:5rem;" type="number" name="inpwidth" id="inpheight" placeholder="Height"> &nbsp; Desired Height 
+
+        </div>
+        <div class="row d-flex justify-content-center">
+            <iframe id="preview-frame2"></iframe>
+        </div>
+
+
+    </div>
+    <div class="container-fluid px-0">
+        <div class="release3 mx-auto d-flex justify-content-center align-items-center">
+          <ul>
+            <li>&copy;Copyright Law of Samin Arnob.</li>
+          
+  
+          </ul>
+        </div>
+  
+       </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/core2.js"></script>
+
+    <script src="assets/js/third.js"></script>
+
+    <script src="assets/js/previewhandle.js"></script>
+</body>
+</html>

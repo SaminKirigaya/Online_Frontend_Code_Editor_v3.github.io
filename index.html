@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeEditor Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/core.css">
+    
+</head>
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg sticky-top desnav">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-4 txtcol" >CodeEditor Online</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse sticky-top " id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a id="btnact1" class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a id="btnact2" class="nav-link " href="editor.html">Code Editor</a>
+              
+              
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!--Nav-->
+    <div class="container-fluid desbac">
+
+       <div class="welc"></div>
+       <div class="welctxt " contenteditable="false"><p id="welcomecom">WELCOME HOME</p></div>
+
+       <div class="row">
+        <div class="release mx-auto"></div>
+
+       </div>
+       <div class="row">
+        <div class="release2 mx-auto d-flex justify-content-start align-items-center">
+          <ul>
+            <li><h3>Release Note for Alpha v3 update :</h3></li>
+            <li>Added auto complete for Html tags.</li>
+            <li>Added auto complete brackets for html code section.</li>
+            <li>Added auto complete brackets for css code section.</li>
+            <li>Added auto complete for html tags in javascript code segment.</li>
+            <li>Added auto complete brackets for javascript code segment.</li>
+            <li>Recently added auto quotation mark feature.</li>
+            <li>Fixed bug for &lt;img&gt;, &lt;br&gt; and saveral tags that don't require closing tags.</li>
+          </ul>
+        </div>
+
+       </div>
+
+       <div class="row my-3">
+        <div class="release2 mx-auto d-flex justify-content-start align-items-center">
+          <ul>
+            <li><h3>Instructions & How To Use After Update :</h3></li>
+            <li>Kindly remember that the html preview field is not for input of your code. It's only for observing your code easily. </li>
+            <li>The auto complete feature has been added recently, So you won't beable to remove/clean auto generated closing tags with backspace.</li>
+            <li>In order to remove the closing tag manually you need to select the whole tag with mouse and than click backspace.</li>
+            <li>At term of javascript area document.getElements tag often don't work like other code editors so you have to add document.getElementById/className/TagName("X").[ 0 - Any Number According to your preferred id position ]</li>
+            <li><img class="imdes" src="assets/js/img/proc3.PNG"></li>
+            <li>You need to use word-break css tag in order to auto word breaking inside design.</li>
+            <li>First Select the tag with mouse cursor :</li>
+            <li><img class="imdes" src="assets/js/img/proc1.PNG"></li>
+            <li>Than click Backspace :</li>
+            <li><img class="imdes" src="assets/js/img/proc2.PNG"></li>
+          </ul>
+        </div>
+
+       </div>
+
+       
+
+        
+    </div>
+    <div class="container-fluid px-0">
+      <div class="release3 mx-auto d-flex justify-content-center align-items-center">
+        <ul>
+          <li>&copy;Copyright Law of Samin Arnob.</li>
+        
+
+        </ul>
+      </div>
+
+     </div>
+
+     <div id="load" class="container-fluiid p-0 m-0 justify-content-center align-items-center loader">
+      <div class="spinner-border text-info" style="width: 4rem; height: 4rem;" role="status">
+        <span class="sr-only"></span>
+      </div>
+        
+
+     </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/core.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+.maincont{
+    
+    height: 100vh !important;
+    background-color: #2c2a2a;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.maincont::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.coldes{
+    min-width: 28% !important;
+    height: 50vh !important;
+    background-color: rgba(94, 94, 94, 0);
+    overflow-y: scroll;
+    color :white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.6rem;
+    word-break: break-word;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    text-align: center;
+}
+
+.coldes2{
+    min-width: 28% !important;
+    height: 50vh !important;
+    background-color: rgba(66, 66, 66, 0);
+    overflow-y: scroll;
+    word-break: break-word;
+    color:white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.6rem;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    
+}
+
+.coldes3{
+    min-width: 50% !important;
+    height: 50vh !important;
+    margin-left: 2rem;
+    background-color: aliceblue;
+
+    word-break: break-word;
+
+}
+.coldes::-webkit-scrollbar {
+    display: none;
+  }
+
+  .coldes2::-webkit-scrollbar {
+    display: none;
+  }
+
+textarea{
+    height:46vh !important;
+    background-color: #d7ffb3;
+    font-weight: 0.4rem;
+    color: rgb(0, 0, 0);
+    resize: none;
+    border-style: none;
+    
+  }
+
+
+#content{
+    background-color: black;
+    color:rgb(207, 247, 115);
+    height: 46vh !important;
+    
+    padding: 5px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    word-break: break-word;
+  }
+#content::-webkit-scrollbar {
+    display: none;
+  }
+
+
+#preview-frame {
+    width: 100% !important;
+    height: 49vh !important;
+    border: none;
+    overflow-y: scroll;
+    background-color: #d7ffb3;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    word-break: break-all !important;
+    
+  }  
+#preview-frame::-webkit-scrollbar {
+    display: none;
+  }
+
+.famfon{
+    font-family: 'Alegreya Sans SC';
+}
+
+.prevmain{
+  
+  min-height: 100vh !important;
+  overflow-y: scroll;
+  overflow-x : scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  background-color: #2c2a2a !important;
+  word-break: break-word;
+  color : white;
+  font-family: 'Alegreya Sans SC';
+}
+
+.prevmain::-webkit-scrollbar {
+  display: none;
+}
+
+#preview-frame2{
+  background-color: #d7ffb3;
+  word-break: break-word !important;
+  resize:both;
+}
