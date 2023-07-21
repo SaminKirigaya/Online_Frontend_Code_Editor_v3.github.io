@@ -1,4 +1,4 @@
-# FrontEnd Code Editor V3
+# Online FrontEnd Code Editor V3
 
 The whole project is created to make a online code editing page with side by side output view and a responsive width x height based output preview of frontend code below main code.
 
